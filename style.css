@@ -47,7 +47,7 @@ nav a:hover {
 main.container {
     display: flex;
     gap: 20px;
-    flex-wrap: wrap;
+    flex-direction: column;
     padding: 30px 0;
 }
 
@@ -109,6 +109,13 @@ aside p {
 
 #kontak a:hover {
     text-decoration: underline;
+}
+main article {
+    background-color: #fff;
+    padding: 25px;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    margin-bottom: 20px;
 }
 
 /* Footer */
